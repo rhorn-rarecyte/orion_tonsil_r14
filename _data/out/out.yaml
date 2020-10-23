@@ -76,7 +76,7 @@ Exhibit:
     Height: 39122
     MaxLevel: 6
     Name: i0
-    Path: /images/out
+    Path: https://s3-us-west-2.amazonaws.com/rarecyte.images/minerva/R14_C11_201022
     Width: 37850
   Layout:
     Grid:
