@@ -1,2 +1,16 @@
-# orion_tonsil_r14
-Minerva Story Page for Orion Tonsil R14 data set
+# Minerva Story 
+
+## Local build instructions
+
+### Install dependencies
+
+```bash
+gem install jekyll bundler
+bundle install
+```
+
+### Run development server
+
+```bash
+bundle exec jekyll serve
+```
