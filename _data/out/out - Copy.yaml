@@ -1,0 +1,195 @@
+Exhibit:
+  Groups:
+  - Channels:
+    - CD20
+    - CD31
+    - SMA
+    - E-Cadherin
+    - Pan-CK (DIG)
+    Colors:
+    - ffffff
+    - 7ed321
+    - d0021b
+    - bd10e0
+    - 50e3c2
+    Name: Tissue Architecture
+    Path: Tissue-Architecture_1__CD20--4__CD31--3__SMA--14__E-Cadherin--19__Pan-CK
+      (DIG)
+  - Channels:
+    - SYTOX BLUE
+    - PD-L1
+    - PD-1
+    - CD20
+    - CD3d
+    - CD68
+    Colors:
+    - ffffff
+    - 7ed321
+    - f8e71c
+    - 4a90e2
+    - bd10e0
+    - d0021b
+    Name: Immune Checkpoint Biomarkers
+    Path: Immune-Checkpoint-Biomarkers_2__SYTOX BLUE--11__PD-L1--15__PD-1--1__CD20--17__CD3d--5__CD68
+  - Channels:
+    - CD4
+    - CD8a
+    - FOXP3
+    - CD45RO (Biotin)
+    Colors:
+    - 7ed321
+    - d0021b
+    - bd10e0
+    - 0000ff
+    Name: T Cell Subsets
+    Path: T-Cell-Subsets_7__CD4--9__CD8a--8__FOXP3--18__CD45RO (Biotin)
+  - Channels:
+    - CD20
+    - Ki67
+    - PCNA
+    - CD45
+    Colors:
+    - 4a90e2
+    - 7ed321
+    - d0021b
+    - ffffff
+    Name: Cellular Proliferation
+    Path: Cellular-Proliferation_1__CD20--16__Ki67--0__PCNA--6__CD45
+  - Channels:
+    - CD163
+    - CD11b
+    - CD11c
+    - CD68
+    Colors:
+    - 7fff7f
+    - 50e3c2
+    - f8e71c
+    - d0021b
+    Name: Myeloid and Stromal Cells
+    Path: Myeloid-and-Stromal-Cells_13__CD163--10__CD11b--12__CD11c--5__CD68
+  Header: This is a 21-marker whole-slide scan of a single tonsil section stained
+    with TissuePlexTM Reagents and imaged using the Orion Instrument. All markers
+    were stained in a single staining procedure and imaged in a single scan. Use the
+    arrow keys above for a tour of this tonsil section.
+  Images:
+  - Description: Orion(TM) - Deep Multiplexing of a Single Tonsil Section
+    Height: 39122
+    MaxLevel: 6
+    Name: i0
+    Path: /images/out
+    Width: 37850
+  Layout:
+    Grid:
+    - - i0
+  Rotation: 0
+  Stories:
+  - Description: ''
+    Name: ''
+    Waypoints:
+    - Arrows: []
+      Description: 'Cancer tissue micro-environments contain numerous cell types,
+        including epithelial, immune, vascular endothelial and smooth muscle cells
+        in a spatial context for immune response. In tonsil, B cell follicles with
+        germinal centers and T cell interfollicular zones define the lymphoid compartments.
+        Blood vessels are revealed by CD31 and smooth muscle actin (SMA). Note that
+        venules are SMA negative. Cytokeratin and E-cadherin co-stain mucosal and
+        crypt lining.
+
+
+        Displayed markers: CD20 (B cells, gray); CD31 (vascular endothelium and crypt
+        sub-mucosa, green); SMA (arterioles, red); E-cadherin (mucosal and crypt epithelium,
+        magenta); and pan-cytokeratin (mucosal and crypt epithelium, cyan).'
+      Group: Tissue Architecture
+      Name: Characterize Tissue Architecture
+      Overlays:
+      - height: 0.08868909386500812
+        width: 0.09828945969575648
+        x: 0.3607658172187652
+        y: 0.5400779726434913
+      Pan:
+      - 0.3871139355151684
+      - 0.5827558276664944
+      Zoom: 4.3172696907344825
+    - Arrows: []
+      Description: 'PD-L1 and PD-1 are immune checkpoint markers involved in tumor
+        evasion of the immune system, and their expression on tumor cells and within
+        the tumor microenvironment impacts response to checkpoint inhibitor therapy.
+        In tonsil, PD-L1 is expressed by crypt-lining cells, and PD-1 is found scattered
+        in the follicles. CD68 positive macrophages are present adjacent to the crypt
+        lining.
+
+
+        Displayed markers: SYTOX blue (nucleus, gray); PD-1 (germinal centers, yellow);
+        PD-L1 (crypt sub-mucosa, green); CD20 (B cells, blue); CD3e (T cells, magenta),
+        and CD68 (macrophages, red).'
+      Group: Immune Checkpoint Biomarkers
+      Name: Immune Checkpoint Markers
+      Overlays:
+      - height: 0.08310515536962282
+        width: 0.0835791391454952
+        x: 0.6630550313464094
+        y: 0.23287705547517085
+      Pan:
+      - 0.7042763169015129
+      - 0.2630189814112748
+      Zoom: 4.3172696907344825
+    - Arrows: []
+      Description: 'Helper, cytotoxic, memory, regulatory and activated/exhausted
+        T cells can be simultaneously revealed by deep multiplexing. CD4 helper and
+        CD8 cytotoxic T cells are present in the interfollicular zone.
+
+
+        Displayed markers: SYTOX blue (nucleus, gray); CD4 (helper T cells, green);
+        CD8a (cytotoxic T cells, red); FoxP3 (T reg cells, magenta); CD45RO (memory
+        T cells, blue); and LAG-3 (activated/exhausted T cells, white).'
+      Group: T Cell Subsets
+      Name: Investigate T Cell Subsets
+      Overlays:
+      - height: 0.045862319054317646
+        width: 0.06385614758280589
+        x: 0.42637181444218136
+        y: 0.3731726108384686
+      Pan:
+      - 0.45076133530771906
+      - 0.39553762616344873
+      Zoom: 6.47977600077004
+    - Arrows: []
+      Description: 'Tonsil follicles contain germinal centers where expansion of B
+        cells occurs in response to foreign antigens. Germinal centers are easily
+        visualized by Ki67 and PCNA which are nuclear markers of cellular proliferation.
+
+
+        Displayed markers: CD20 (B cells, blue); Ki67 (cell proliferation, green);
+        PCNA (cell proliferation, red); and CD45 (leukocytes, gray).'
+      Group: Cellular Proliferation
+      Name: Cellular Proliferation in Follicles
+      Overlays:
+      - height: 0.0968822837883131
+        width: 0.11754797641634862
+        x: 0.5963281683316648
+        y: 0.41474733431490096
+      Pan:
+      - 0.6531873467348993
+      - 0.47090830776058284
+      Zoom: 3.7498703708159975
+    - Arrows: []
+      Description: 'The follicular dendritic network within the germinal center is
+        shown here in cyan. Intrafollicular macrophages are co-stained with both yellow
+        and red. Macrophages associated with the reticular network are present in
+        the T cell zone.
+
+
+        Displayed markers: CD163 (macrophages, green); CD11b (dendritic cells/macrophages,
+        cyan); CD11c (dendritic cells/macrophages, yellow); and CD68 (macrophages,
+        red).'
+      Group: Myeloid and Stromal Cells
+      Name: Myeloid and Stromal Cells
+      Overlays:
+      - height: 0.07832679423816868
+        width: 0.07786963396051405
+        x: 0.6857300475285987
+        y: 0.6007773956928807
+      Pan:
+      - 0.7166998399621632
+      - 0.6320519285728493
+      Zoom: 5.399813333975036

@@ -1,0 +1,32 @@
+Exhibit:
+  PixelsPerMicron: 3.0769
+  Images:
+    - Name: i0
+      Description: 'Example'
+      Path: https://s3.amazonaws.com/www.cycif.org/Nature-protocol-2019/LUNG_3
+      Width: 14448
+      Height: 11101
+      MaxLevel: 4
+  Layout:
+    Grid:
+      - [i0]
+  Groups:
+    - Path: Nuclei_0__DAPI
+      Name: Nuclei
+      Colors:
+        - FFFFFF
+      Channels:
+        - Hoechst
+  Stories:
+    - Description: ''
+      Name: ''
+      Waypoints:
+        - Arrows: []
+          Description: ''
+          Group: Nuclei
+          Name: Nuclei
+          Overlays: []
+          Pan:
+            - 0.46624832470716326
+            - 0.43676341795171836
+          Zoom: 0.8652798717525104
